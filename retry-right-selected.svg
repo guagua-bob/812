@@ -1,0 +1,7 @@
+<svg width="113" height="123" viewBox="0 0 113 123" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="y" x1="56" y1="4" x2="56" y2="119" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE119"/><stop offset=".6" stop-color="#FFDA07"/><stop offset="1" stop-color="#FFD00A"/></linearGradient></defs>
+  <path d="M2.1045 20.0078C1.48074 10.6321 7.40647 6.07822 18.6342 4.47096C41.0896 1.25643 71.0301 1.25643 93.4855 4.47096C104.713 6.07822 110.639 10.6321 110.015 20.0078C109.391 24.5618 106.584 27.5084 106.896 32.866C108.456 54.2962 108.768 79.7445 106.584 102.782C105.337 113.497 97.8518 117.783 85.6885 118.855C68.2231 120.462 43.8965 120.462 26.4312 118.855C14.2678 117.783 6.78271 113.497 5.53519 102.782C3.35203 79.7445 3.66391 54.2962 5.22331 32.866C5.53519 27.5084 2.72827 24.5618 2.1045 20.0078Z" fill="url(#y)" stroke="#FFC20A" stroke-width="4.12" stroke-linejoin="round"/>
+  <path d="M32 33L46 37M81 33L67 37" stroke="#050505" stroke-width="4" stroke-linecap="round"/><circle cx="44" cy="40" r="6"/><circle cx="69" cy="40" r="6"/>
+  <text x="56" y="78" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="600">鏁寸偣</text>
+  <text x="56" y="100" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="600">濂界殑</text>
+</svg>

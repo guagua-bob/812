@@ -1,0 +1,88 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur18" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#BFC1C6" flood-opacity="0.24"/></filter>
+    <linearGradient id="group10-yellow" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFE119"/><stop offset="0.6" stop-color="#FFDA07"/><stop offset="1" stop-color="#FFD00A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="375" height="812" fill="#F5F5F7"/>
+
+  <!-- iOS status bar -->
+  <text x="46" y="34" fill="#050505" font-family="Arial, sans-serif" font-size="18" font-weight="700">17:55</text>
+  <g fill="#050505">
+    <rect x="269" y="29" width="3" height="5" rx="1.5"/><rect x="275" y="26" width="3" height="8" rx="1.5"/>
+    <rect x="281" y="23" width="3" height="11" rx="1.5"/><rect x="287" y="20" width="3" height="14" rx="1.5"/>
+    <path d="M298 26C304 19 314 19 320 26L317 29C312 24 306 24 301 29L298 26Z"/>
+    <path d="M303 31C307 27 312 27 316 31L312 35C310 33 309 33 307 35L303 31Z"/>
+  </g>
+  <rect x="322" y="22" width="31" height="14" rx="4" stroke="#777" stroke-width="1.5"/>
+  <rect x="325" y="25" width="20" height="8" rx="2" fill="#050505"/><rect x="354" y="27" width="2" height="5" rx="1" fill="#777"/>
+
+  <!-- top-right mini-program control -->
+  <g filter="url(#shadow)">
+    <rect x="286" y="58" width="78" height="32" rx="16" fill="white"/>
+  </g>
+  <circle cx="301" cy="74" r="2.6" fill="#161616"/><circle cx="309" cy="74" r="2.6" fill="#161616"/><circle cx="317" cy="74" r="2.6" fill="#161616"/>
+  <path d="M327 64V84" stroke="#ECECEF"/>
+  <circle cx="347" cy="74" r="8" stroke="#161616" stroke-width="2"/><circle cx="347" cy="74" r="3" fill="#161616"/>
+
+  <!-- deliberately blurred recommendation behind sheet -->
+  <g filter="url(#blur18)" opacity="0.72">
+    <rect x="104" y="145" width="168" height="16" rx="8" fill="#313238"/>
+    <rect x="123" y="174" width="126" height="15" rx="7" fill="#33343A"/>
+    <path d="M157 166C185 161 218 168 246 164" stroke="#38E723" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="188" cy="324" rx="107" ry="67" fill="#E3AF70"/>
+    <ellipse cx="196" cy="318" rx="70" ry="45" fill="#815535"/>
+    <circle cx="227" cy="308" r="29" fill="#65A93E"/><circle cx="176" cy="344" r="22" fill="#7EB744"/>
+  </g>
+
+  <!-- bottom sheet -->
+  <path d="M0 403C0 382.013 17.013 365 38 365H337C357.987 365 375 382.013 375 403V812H0V403Z" fill="white"/>
+
+  <text x="187.5" y="443" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="700">鍐嶈瘯璇?/text>
+  <text x="187.5" y="484" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="700">杩樻槸鎹㈢偣鍒殑</text>
+  <path d="M133 491C157 488 179 492 211 489C225 488 213 497 199 499C217 496 236 496 256 499" stroke="#42EA27" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- left unselected mood -->
+  <g id="retry-left-default">
+  <rect id="retry-left-shape" x="20" y="550" width="94" height="101" rx="15" fill="white" stroke="#E2E2E4" stroke-width="1.5"/>
+  <path d="M53 569H63C65 569 66 571 66 573V576C66 580 63 582 60 582C57 582 55 580 55 576V574H52C49 574 48 572 48 570C48 569 50 569 53 569Z" fill="#050505"/>
+  <path d="M76 569H86C88 569 89 571 89 573V576C89 580 86 582 83 582C80 582 78 580 78 576V574H75C72 574 71 572 71 570C71 569 73 569 76 569Z" fill="#050505"/>
+  <text x="67" y="612" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600">闅忎究</text>
+  <text x="67" y="634" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600">鍚冪偣</text>
+  </g>
+  <image id="retry-left-selected" href="mood-left-selected.svg" x="10.5" y="539" width="113" height="123" style="display:none" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- center selected mood -->
+  <g transform="translate(9.5 0)">
+  <path id="retry-center-shape" d="M141 568C143 558 151 550 163 550C170 542 186 542 193 550C208 550 215 559 216 571C225 582 231 602 229 619C226 641 211 652 178 652C145 652 130 641 127 619C125 601 131 580 141 568Z" fill="#FFE019" stroke="#FFCA0A" stroke-width="5"/>
+  <path d="M157 574H170C173 574 174 576 174 579V583C174 588 171 591 167 591C163 591 160 588 160 583V581H156C152 581 150 578 150 575C150 574 153 574 157 574Z" fill="#050505"/>
+  <path d="M186 574H199C202 574 203 576 203 579V583C203 588 200 591 196 591C192 591 189 588 189 583V581H185C181 581 179 578 179 575C179 574 182 574 186 574Z" fill="#050505"/>
+  <path d="M153 571L169 575M201 571L185 575" stroke="#050505" stroke-width="4" stroke-linecap="round"/>
+  <text x="178" y="616" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600">姝ｅ湪</text>
+  <text x="178" y="639" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600">绾犵粨</text>
+  </g>
+
+  <!-- right unselected mood -->
+  <rect id="retry-right-shape" x="261" y="550" width="94" height="101" rx="15" fill="white" stroke="#E2E2E4" stroke-width="1.5"/>
+  <path id="retry-right-selected" d="M2.1045 20.0078C1.48074 10.6321 7.40647 6.07822 18.6342 4.47096C41.0896 1.25643 71.0301 1.25643 93.4855 4.47096C104.713 6.07822 110.639 10.6321 110.015 20.0078C109.391 24.5618 106.584 27.5084 106.896 32.866C108.456 54.2962 108.768 79.7445 106.584 102.782C105.337 113.497 97.8518 117.783 85.6885 118.855C68.2231 120.462 43.8965 120.462 26.4312 118.855C14.2678 117.783 6.78271 113.497 5.53519 102.782C3.35203 79.7445 3.66391 54.2962 5.22331 32.866C5.53519 27.5084 2.72827 24.5618 2.1045 20.0078Z" transform="translate(261 550) scale(.831858 .821138)" fill="url(#group10-yellow)" stroke="#FFC20A" stroke-width="4.12" stroke-linejoin="round" style="display:none"/>
+  <path d="M289 571L302 575M326 571L313 575" stroke="#050505" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="297" cy="577" r="4" fill="#050505"/><circle cx="318" cy="577" r="4" fill="#050505"/>
+  <text x="308" y="612" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600">鏁寸偣</text>
+  <text x="308" y="634" text-anchor="middle" fill="#050505" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600">濂界殑</text>
+
+  <!-- mood click targets -->
+  <rect id="retry-hit-left" x="20" y="542" width="94" height="117" fill="transparent" role="button" tabindex="0" aria-label="闅忎究鍚冪偣"/>
+  <rect id="retry-hit-center" x="134.5" y="542" width="106" height="117" fill="transparent" role="button" tabindex="0" aria-label="姝ｅ湪绾犵粨"/>
+  <rect id="retry-hit-right" x="261" y="542" width="94" height="117" fill="transparent" role="button" tabindex="0" aria-label="鏁寸偣濂界殑"/>
+
+  <!-- retry CTA -->
+  <rect x="19" y="680" width="337" height="57" rx="24" fill="#060609"/>
+  <circle cx="157" cy="708.5" r="12" fill="#FFE600"/>
+  <text x="157" y="714" text-anchor="middle" fill="#050505" font-family="Arial, sans-serif" font-size="16" font-weight="700">8</text>
+  <text x="203" y="716" text-anchor="middle" fill="white" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="600">閲嶆柊閫?/text>
+
+  <text x="187.5" y="771" text-anchor="middle" fill="#9B9B9F" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14">蹇偣閫夊ソ鍚冮キ鍚э紝杩樻湁8娆℃満浼氬摝</text>
+</svg>
